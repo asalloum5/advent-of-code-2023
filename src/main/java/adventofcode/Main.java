@@ -13,6 +13,15 @@ public class Main {
 
             int dayTwoPartTwoResult = DayTwo.executePartTwo();
             assert 71036 == dayTwoPartTwoResult;
+
+            //DayThree.execute();
+
+            int dayFourPartOneResult = DayFour.executePartOne();
+            assert 21919 == dayFourPartOneResult;
+
+            int dayFourPartTwoResult = DayFour.executePartTwo();
+            assert 9881048 == dayFourPartTwoResult;
+
         } catch (IOException ioException) {
             System.out.println(ioException.getMessage());
         }
