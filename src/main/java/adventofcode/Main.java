@@ -28,6 +28,14 @@ public class Main {
             long daySixPartTwoResult = DaySix.executePartTwo();
             assert 28101347 == daySixPartTwoResult;
 
+            DaySeven daySeven = new DaySeven();
+            int daySevenPartOneResult = daySeven.executePartOne();
+            assert 251216224 == daySevenPartOneResult;
+
+            daySeven = new DaySeven();
+            int daySevenPartTwoResult = daySeven.executePartTwo();
+            assert 250825971 == daySevenPartTwoResult;
+
         } catch (IOException ioException) {
             System.out.println(ioException.getMessage());
         }
