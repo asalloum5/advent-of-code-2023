@@ -22,6 +22,12 @@ public class Main {
             int dayFourPartTwoResult = DayFour.executePartTwo();
             assert 9881048 == dayFourPartTwoResult;
 
+            long daySixPartOneResult = DaySix.executePartOne();
+            assert 861300 == daySixPartOneResult;
+
+            long daySixPartTwoResult = DaySix.executePartTwo();
+            assert 28101347 == daySixPartTwoResult;
+
         } catch (IOException ioException) {
             System.out.println(ioException.getMessage());
         }
