@@ -36,6 +36,8 @@ public class Main {
             int daySevenPartTwoResult = daySeven.executePartTwo();
             assert 250825971 == daySevenPartTwoResult;
 
+            System.out.println(DayEight.executePartOne());
+
         } catch (IOException ioException) {
             System.out.println(ioException.getMessage());
         }
